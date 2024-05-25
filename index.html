@@ -6,8 +6,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./styles.css">
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, shrink-to-fit=no">
 </head>
@@ -20,9 +20,9 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="linhatempo.html">Linha do Tempo</a></li>
                 <li><a href="sistemas.html">Sistemas Operacionais</a></li>
-                <li><a href="videos.html">Vídeos</a></li>
                 <li><a href="https://forms.gle/XGvDXa1WjcFm7eK99">Avalie!</a></li>
             </ul>
+            <span id="menu" class="material-icons">menu</span>
         </header>
         <div id="start-section-info">
             <div>
@@ -50,7 +50,7 @@
                     de produtividade. Os PCs são versáteis e podem ser usados para uma variedade de tarefas, como navegação na internet, processamento de texto, jogos, programação e muito mais. Eles são amplamente utilizados em residências, escritórios
                     e instituições educacionais.</p>
             </div>
-            <img src="assets/pcart.png" />
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gMkgfy_ytD0?si=Ry2nR9TOyrnyKill" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
 
         <div class="section-info reverse-section-info">
@@ -85,12 +85,21 @@
                 e melhores, visando sempre se manter com a melhor qualidade e performance.
             </p>
         </div>
-
-
-
     </section>
 
     <footer>
         <p> Projeto desenvolvido na disciplina de Computação e Sociedade: Evolução Histórica e Aplicações - USP São Carlos</p>
     </footer>
+
+    <div id="menu-open">
+        <span id="close" class="material-icons">close</span>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="linhatempo.html">Linha do Tempo</a></li>
+            <li><a href="sistemas.html">Sistemas Operacionais</a></li>
+            <li><a href="https://forms.gle/XGvDXa1WjcFm7eK99">Avalie!</a></li>
+        </ul>
+    </div>
+
+    <script src="./menu.js"></script>
 </body>
